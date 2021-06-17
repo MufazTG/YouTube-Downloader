@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 Hello {} , I'am a simple youtube video link to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by @FayasNoushad
+Made by @BX_Botz
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -20,14 +20,14 @@ Made by @FayasNoushad
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by @FayasNoushad
+Made by @BX_Botz
 """
     ABOUT_TEXT = """
 - **Bot :** `YouTube Downloader`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+- **Creator :** [ᴍʜᴅ ᴍᴜꜰᴀᴢ](https://telegram.me/Mufaz123)
+- **Channel :** [BX Botz](https://telegram.me/Bx_Botz)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/FayasNoushad/YouTube-Downloader)
+- **Source :** [Click here](https://github.com/MufazTG/YouTube-Downloader)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
@@ -44,16 +44,16 @@ Made by @FayasNoushad
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🏠Home', callback_data='home'),
+        InlineKeyboardButton('💡About', callback_data='about'),
+        InlineKeyboardButton('🔒Close', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🏠 Home', callback_data='home'),
+        InlineKeyboardButton('🛠️Help', callback_data='help'),
+        InlineKeyboardButton('🔒 Close', callback_data='close')
         ]]
     )
     BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @FnURLUploadBot"
