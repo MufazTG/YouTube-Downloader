@@ -37,9 +37,9 @@ Made by @BX_Botz
         InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
         InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🛠️Help', callback_data='help'),
+        InlineKeyboardButton('💡About', callback_data='about'),
+        InlineKeyboardButton('🔒Close', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
